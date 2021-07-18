@@ -8,6 +8,26 @@
       }else {
         alert("You don't know? 'ECMAScript'!");
       }
+
+      let input = prompt("press number",0);
+      if(input > 0){
+        alert(1);
+      }else if(input < 0){
+        alert(-1);
+      }else{
+        alert(0);
+      }
+
+      let a = 1;
+      let b = 2;
+
+      let result = (a+b < 4) ? '미만':'이상';
+
+      let login = "직원";
+      let message = (login == "직원") ? "안녕하세요" :
+        (login == "임원") ? "환영합니다" : 
+        (login == "") ? "로그인이 필요합니다." : 
+        '';
     </script>
   </body>
 </html>
